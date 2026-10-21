@@ -1,0 +1,5 @@
+import pandas as pd
+from scipy.spatial import distance_matrix # Sample data points
+data = [[0,2],[2,0],[3,1],[5,1]]
+df = pd.DataFrame(data, columns=['X','Y']) df
+# Calculate distance matrix pd.DataFrame(distance_matrix(df.values, df.values)) 
